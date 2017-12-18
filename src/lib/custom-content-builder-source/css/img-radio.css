@@ -1,1 +1,0 @@
-label.img-radio-control-group>input[type=radio].img-radio{display:none}label.img-radio-control-group>input[type=radio].img-radio+img.img-radio-control{width:100%;height:200px;border:2px solid transparent;pointer-events:none}label.img-radio-control-group>input[type=radio].img-radio:checked+img.img-radio-control{border:2px solid #00f}
