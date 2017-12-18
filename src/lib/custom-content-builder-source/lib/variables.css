@@ -1,0 +1,134 @@
+//http://blog.scur.pl/2012/06/variable-media-queries-less-css/
+
+//Not being used, but seems helpful
+@highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+              ~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+              ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+              ~"only screen and (min-device-pixel-ratio: 1.5)";
+
+
+//Being used twice in searchbox.less
+@mobile_portrait: ~"only screen and (min-width: 200px) and (max-width: 450px)";
+
+//Several usages throughout
+@xs_device: ~"only screen and (max-width: 767px)";
+
+//Used once in searchresults.less
+@mobile_device: ~"only screen and (min-width: 320px) and (max-width: 767px)";
+
+//Being used a handful of times throughout
+@sm_device: ~"only screen and (min-width: 768px)";
+
+//Being used once in datatable-responsive.less
+@xstosm_device: ~"only screen and (max-width: 991px)";
+
+//Several usages throughout
+@md_device: ~"only screen and (min-width: 992px)";
+
+//Being used a handful of times throughout
+@lg_device: ~"only screen and (min-width: 1200px)";
+
+//Being used once in modal.less
+@xtralg_device: ~"only screen and (min-width: 1400px)";
+
+//Being used a couple times in social-section.less
+@ipad_device:~"only screen and (min-width: 768px) and (max-width: 991px)";
+
+//Being used once in modules.less
+@hero_video: ~"only screen and (max-width: 493px)";
+
+//Used once in modal-custom.less
+@phone: ~"only screen and (max-width: 719px)";
+
+//Used a couple times in modal-custom.less
+@tablet: ~"only screen and (min-width: 720px) and (max-width: 959px)";
+
+//Used a couple times in modal-custom.less
+@desktop: ~"only screen and (min-width: 960px) and (max-width: 1199px)";
+
+//Used a couple times in modal-custom.less
+@desktop-xl: ~"only screen and (min-width: 1129px)";
+
+//MOBILE-FIRST QUERIES (SHOULD BE MIN-WIDTH ONLY)
+//GO HERE ONCE REDEFINED
+@mobile-landscape-and-up: ~"only screen and (min-width: 480px)";
+@ipad-and-up: ~"only screen and (min-width: 768px)";
+@above-ipad: ~"only screen and (min-width: 769px)";
+@above-991: ~"only screen and (min-width: 992px)";
+
+@above-1300: ~"only screen and (min-width: 1300px)";
+
+@above-1500: ~"only screen and (min-width: 1500px)";
+
+//MISC VARIABLES
+@scroller_webkit_track_shadow: @black;
+@scroller_webkit_shadow: @black;
+@scroller_webkit_thumb_shadow: @black;
+@scroller_webkit_shadow_alpha: 0.2;
+@scroller_webkit_thumb_bg: @gray-4;
+@scroller_webkit_thumb_border: @white;
+@scroller_webkit_thumb_border_alpha: 0;
+@scroller_webkit_corner: @gray-2;
+@scroll_base_ie_bg: @gray-4;
+@scroller_bg: @gray-6;
+@content_space: "\00a0";
+@menu_slide_seconds: 0.5;
+
+//COLOR VARIABLES
+@green: #98d146;
+@blue: #0654BA;
+@yellow: #fdb840;
+@red: #e73b41;
+@orange: #f79a08;
+@decline-btn-color: #8a8f94;
+@po-approval-gray: #7e8080;
+@off-canvas-panel-bg: #52585d;
+
+@white: #ffffff;
+@gray-1: #f7f7f7;
+@gray-2: #dddddd;
+@gray-3: #aaaaaa;
+@gray-4: #999999;
+@gray-5: #777777;
+@gray-6: #555555;
+@gray-7: #333333;
+@black: #000000;
+
+//EBAY COLORS
+@ebay_blue: #0064d2;
+@ebay_red: #e53238;
+@ebay_green: #86b817;
+@ebay_yellow: #f5af02;
+@ebay_light_gray: #e9e9e8;
+@ebay_type_gray_1: #cbc4bc;
+@ebay_type_gray_2: #796e65;
+
+//LEFTOVER NEUTRALS
+@cararra_hex: #f0efec;
+@sandstone3_hex: #776d68;
+@cloud_hex: #d1cfcd;
+@dawn_hex: #a09b95;
+@chicago_hex: #595451;
+@porcelain_hex: #eff4f4;
+@selago_hex: #e5effb;
+
+
+//TYPE VARIABLES
+@master-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@thin-weight: 100;
+@light-weight: 300;
+@normal-weight: 500;
+@bold-weight: 700;
+
+//PADDING
+@header-size: 80px;
+@header-size-mobile: 50px;
+
+
+
+
+
+
+
+
+

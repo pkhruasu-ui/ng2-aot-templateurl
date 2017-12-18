@@ -1,0 +1,7 @@
+{
+	"browser": ["google chrome"]
+	, "open": false
+	, "server": { 
+		"baseDir" : "./dist" 		
+	}	
+}

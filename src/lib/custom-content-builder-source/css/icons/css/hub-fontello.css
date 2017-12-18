@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'hub';
+    src:
+        url('../font/hub-fontello.ttf?enf93h') format('truetype'),
+        url('../font/hub-fontello.woff?enf93h') format('woff'),
+        url('../font/hub-fontello.svg?enf93h#hub') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="hub-icon-"], [class*=" hub-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'hub' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hub-icon-Alignment:before {
+    content: "\e900";
+}
+.hub-icon-Bold:before {
+    content: "\e901";
+}
+.hub-icon-Clean:before {
+    content: "\e902";
+}
+.hub-icon-Color:before {
+    content: "\e903";
+}
+.hub-icon-HTML:before {
+    content: "\e904";
+}
+.hub-icon-Italic:before {
+    content: "\e905";
+}
+.hub-icon-Link:before {
+    content: "\e906";
+}
+.hub-icon-List:before {
+    content: "\e907";
+}
+.hub-icon-Strikethrough:before {
+    content: "\e908";
+}
+.hub-icon-TextStyle:before {
+    content: "\e909";
+}
+.hub-icon-Underline:before {
+    content: "\e90a";
+}
+.hub-icon-Unlink:before {
+    content: "\e90b";
+}
+
